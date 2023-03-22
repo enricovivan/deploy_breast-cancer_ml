@@ -1,9 +1,8 @@
-import streamlit as st
-import plotly as pl
-import pandas as pd
-import numpy as np
+from classes.svc_deploy import SVCDeploy
 
-st.title("Breast Cancer - Predict")
+def main():
+    SVCDeploy()
 
 
-
+if __name__ == '__main__':
+    main()
