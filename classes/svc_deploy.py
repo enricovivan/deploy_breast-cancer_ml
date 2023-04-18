@@ -36,6 +36,8 @@ class SVCDeploy:
     def main_window(self):
 
         st.title('Breast Cancer - Previsão')
+        st.subheader('By: Enrico Vivan e Róbson da Silva Benedito')
+        st.subheader('')
         st.text('Para realizarmos a previsão precisaremos coletas os seguintes dados:')
         st.text("""
             radius_mean      texture_mean
