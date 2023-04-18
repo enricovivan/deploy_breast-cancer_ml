@@ -99,46 +99,46 @@ class SVCDeploy:
         # self.fractal_dimension_worst = self.col2.text_input('fractal_dimension_worst', placeholder='Ex.: 0.118')
 
         # Means
-        self.radius_mean = self.col1.text_input('radius_mean', placeholder='Ex.: 11.23')
-        self.texture_mean = self.col2.text_input('texture_mean', placeholder='Ex.: 20.38')
-        self.perimeter_mean = self.col1.text_input('perimeter_mean', placeholder='Ex.:130.00')
-        self.area_mean = self.col2.text_input('area_mean', placeholder='Ex.: 577.32')
-        self.smoothness_mean = self.col1.text_input('smoothness_mean', placeholder='Ex.: 0.118')
-        self.compactness_mean = self.col2.text_input('compactness_mean', placeholder='Ex.: 0.277')
-        self.concavity_mean = self.col1.text_input('concavity_mean', placeholder='Ex.: 0.3')
-        self.concave_points_mean = self.col2.text_input('concave_points_mean', placeholder='Ex.: 0.05')
-        self.symmetry_mean = self.col1.text_input('symmetry_mean', placeholder='Ex.: 0.2419')
-        self.fractal_dimension_mean = self.col2.text_input('fractal_dimension_mean', placeholder='Ex.: 0.07')
+        self.radius_mean = self.col1.text_input('radius_mean', placeholder='Ex.: 11.23', value='0')
+        self.texture_mean = self.col2.text_input('texture_mean', placeholder='Ex.: 20.38', value='0')
+        self.perimeter_mean = self.col1.text_input('perimeter_mean', placeholder='Ex.:130.00', value='0')
+        self.area_mean = self.col2.text_input('area_mean', placeholder='Ex.: 577.32', value='0')
+        self.smoothness_mean = self.col1.text_input('smoothness_mean', placeholder='Ex.: 0.118', value='0')
+        self.compactness_mean = self.col2.text_input('compactness_mean', placeholder='Ex.: 0.277', value='0')
+        self.concavity_mean = self.col1.text_input('concavity_mean', placeholder='Ex.: 0.3', value='0')
+        self.concave_points_mean = self.col2.text_input('concave_points_mean', placeholder='Ex.: 0.05', value='0')
+        self.symmetry_mean = self.col1.text_input('symmetry_mean', placeholder='Ex.: 0.2419', value='0')
+        self.fractal_dimension_mean = self.col2.text_input('fractal_dimension_mean', placeholder='Ex.: 0.07', value='0')
 
         # SEs
-        self.radius_se = self.col1.text_input('radius_se', placeholder='Ex.: 0.540')
-        self.texture_se = self.col2.text_input('texture_se', placeholder='Ex.: 0.90')
-        self.perimeter_se = self.col1.text_input('perimeter_se', placeholder='Ex.: 8589')
-        self.area_se = self.col2.text_input('area_se', placeholder='Ex.: 153.4')
-        self.smoothness_se = self.col1.text_input('smoothness_se', placeholder='Ex.: 0.006')
-        self.compactness_se = self.col2.text_input('compactness_se', placeholder='Ex.: 0.04')
-        self.concavity_se = self.col1.text_input('concavity_se', placeholder='Ex.: 0.05')
-        self.concave_points_se = self.col2.text_input('concave_points_se', placeholder='Ex.: 0.01')
-        self.symmetry_se = self.col1.text_input('symmetry_se', placeholder='Ex.: 0.031')
-        self.fractal_dimension_se = self.col2.text_input('fractal_dimension_se', placeholder='Ex.: 0.0061')
+        self.radius_se = self.col1.text_input('radius_se', placeholder='Ex.: 0.540', value='0')
+        self.texture_se = self.col2.text_input('texture_se', placeholder='Ex.: 0.90', value='0')
+        self.perimeter_se = self.col1.text_input('perimeter_se', placeholder='Ex.: 8589', value='0')
+        self.area_se = self.col2.text_input('area_se', placeholder='Ex.: 153.4', value='0')
+        self.smoothness_se = self.col1.text_input('smoothness_se', placeholder='Ex.: 0.006', value='0')
+        self.compactness_se = self.col2.text_input('compactness_se', placeholder='Ex.: 0.04', value='0')
+        self.concavity_se = self.col1.text_input('concavity_se', placeholder='Ex.: 0.05', value='0')
+        self.concave_points_se = self.col2.text_input('concave_points_se', placeholder='Ex.: 0.01', value='0')
+        self.symmetry_se = self.col1.text_input('symmetry_se', placeholder='Ex.: 0.031', value='0')
+        self.fractal_dimension_se = self.col2.text_input('fractal_dimension_se', placeholder='Ex.: 0.0061', value='0')
 
         # Worsts
-        self.radius_worst = self.col1.text_input('radius_worst', placeholder='Ex.: 25.38')
-        self.texture_worst = self.col2.text_input('texture_worst', placeholder='Ex.: 17.33')
-        self.perimeter_worst = self.col1.text_input('perimeter_worst', placeholder='Ex.: 184.3')
-        self.area_worst = self.col2.text_input('area_worst', placeholder='Ex.: 2019')
-        self.smoothness_worst = self.col1.text_input('smoothness_worst', placeholder='Ex.: 0.16')
-        self.compactness_worst = self.col2.text_input('compactness_worst', placeholder='Ex.: 0.675')
-        self.concavity_worst = self.col1.text_input('concavity_worst', placeholder='Ex.: 0.711')
-        self.concave_points_worst = self.col2.text_input('concave_points_worst', placeholder='Ex.: 0.266')
-        self.symmetry_worst = self.col1.text_input('symmetry_worst', placeholder='Ex.: 0.465')
-        self.fractal_dimension_worst = self.col2.text_input('fractal_dimension_worst', placeholder='Ex.: 0.118')
+        self.radius_worst = self.col1.text_input('radius_worst', placeholder='Ex.: 25.38', value='0')
+        self.texture_worst = self.col2.text_input('texture_worst', placeholder='Ex.: 17.33', value='0')
+        self.perimeter_worst = self.col1.text_input('perimeter_worst', placeholder='Ex.: 184.3', value='0')
+        self.area_worst = self.col2.text_input('area_worst', placeholder='Ex.: 2019', value='0')
+        self.smoothness_worst = self.col1.text_input('smoothness_worst', placeholder='Ex.: 0.16', value='0')
+        self.compactness_worst = self.col2.text_input('compactness_worst', placeholder='Ex.: 0.675', value='0')
+        self.concavity_worst = self.col1.text_input('concavity_worst', placeholder='Ex.: 0.711', value='0')
+        self.concave_points_worst = self.col2.text_input('concave_points_worst', placeholder='Ex.: 0.266', value='0')
+        self.symmetry_worst = self.col1.text_input('symmetry_worst', placeholder='Ex.: 0.465', value='0')
+        self.fractal_dimension_worst = self.col2.text_input('fractal_dimension_worst', placeholder='Ex.: 0.118', value='0')
 
         # Botão para dar predict
         if st.button('Prever'):
             result = self.predicao(self.radius_mean, self.texture_mean, self.perimeter_mean, self.area_mean, self.smoothness_mean, self.compactness_mean, self.concavity_mean, self.concave_points_mean, self.symmetry_mean, self.fractal_dimension_mean,
                                    self.radius_se, self.texture_se, self.perimeter_se, self.area_se, self.smoothness_se, self.compactness_se, self.concavity_se, self.concave_points_se, self.symmetry_se, self.fractal_dimension_se,
-                                   self.radius_worst, self.texture_worst, self.perimeter_worst, self.area_worst, self.smoothness_worst, self.compactness_worst, self.concavity_worst, self.concave_points_worst, self.symmetry_worst, self.fractal_dimension_worst)
+                                   self.radius_worst, self.texture_worst, self.perimeter_worst, self.area_worst, self.smoothness_worst, self.compactness_worst, self.concavity_worst, self.concave_points_worst, self.symmetry_worst, self.fractal_dimension_worst)                              
 
             if result == 0:
                 result = 'Maligno'
